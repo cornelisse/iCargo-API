@@ -1,12 +1,12 @@
 ![iCargo-API logo](images/iCargo-API-64.png) iCargo-API (version 1.0)
 ==========
 
-The iCargo API is an entity-centric HTTP REST interface for the exchange of information with and within the iCargo ecosystem via Access Points.
+The iCargo API is an [entity-centric]() HTTP REST interface for the exchange of information with and within the [iCargo ecosystem]() via [Access Points]().
 
 ## Context
 The iCargo ecosystem is a federation of distributed and independent systems, designed to support Transport Logistics with the exchange of information between organisations across the Supply Chain. Access Points are software services which supports the iCargo API and provide a single entry point for an organisation to the iCargo ecosystem. One of the characteristics of this ecosystem is controlled and secure exchange of information without the need for a centralised controlling system and organisation.
 
-This API and the iCargo ecosystem are  developed by the [iCargo project](http://i-cargo.eu/). 
+This API specification and the iCargo ecosystem are developed by the [iCargo project](http://i-cargo.eu/). 
 
 
 This specification describes the following topics:
