@@ -18,6 +18,7 @@ The Entity-centric Services interface [IES] supports the following entity-centri
 *  To perform an entity related action such as publish/subscribe;
 *  To change or update the attributes an entity including relations to other entities;
 *  To delete an entity.
+
 Additionally, the following capabilities are supported as well:
 *  To support invitations for cooperation;
 *  To provide information about the Access Point itself;
