@@ -1,7 +1,9 @@
-![iCargo-API logo](images/iCargo-API-64.png) iCargo-API
+![iCargo-API logo](images/iCargo-API-64.png) iCargo-API (version 1.0)
 ==========
 
-The iCargo REST API is an entity-centric HTTP REST interface with uniform HTTP-headers and a prescribed structure for the HTTP-body. The term “resources” is used for concepts and entities to be addressed. Concepts and entities must be described in a knowledge base which is an implementation of a specific version of a specific semantic model.
+The iCargo API is a HTTP REST interface for the exchange of information with and within the iCargo ecosystem. The iCargo ecosystem is developed by the [iCargo project](http://http://i-cargo.eu/) as a federation of systems, designed for Transport Logistics to exchange information between organisations across the Supply Chain.
+
+The iCargo-API supports an [entity-centric]() approach and uses [ontologies]() to define the entities.
 
 This specification describes the following topics:
 *  Capabilities, an overview of the functionality;
