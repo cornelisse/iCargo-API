@@ -8,7 +8,7 @@ A digital shadow is a software agent that collects, stores, enriched and shares 
 
 From a fundamental point of view, digital shadows are [‘entity-centric’](entity.md), not bounded to a single software process but intended to be updated by several participating and authorised services during its lifetime and across business domains.
 
-![Digital shadows representing real-life objects](../images/digital-shadows.png?raw=true “Digital shadows”)
+![Digital shadows representing real-life objects](../images/digital-shadows-512.png?raw=true “Digital shadows”)
 
 The figure is an example of a digital shadow and the real physical world. Like a shadow in the real world, the digital shadow represents a thing or being in the virtual world. Besides monitoring its real world (physical) counterpart it can also act as a virtual version of a human personal assistant to serve in the interest of the [entity](entity.md). A digital shadow is an agent in cyberspace, not residing on the physical [entity](entity.md) itself.
 From a technical point of view, the digital shadow is a semantic communication framework. The information stored in a single electronic register and described with use of a knowledge base containing definitions of concepts and relations. Some of these concepts represent conditions and rules. Actions are performed by fixed but small set of hard-coded basic functions as part of the digital shadow access point.
