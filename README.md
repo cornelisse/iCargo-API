@@ -34,7 +34,6 @@ Additionally, the following capabilities are supported as well:
 Section E4 will elaborate how each capability is supported per API call.
 
 ## Contributions
-![iCargo logo](images/iCargoLogo-320.png)
-The iCargo-API specification and the iCargo ecosystem are developed by the [iCargo project](http://i-cargo.eu/).
+[![iCargo logo](images/iCargoLogo-320.png)](http://i-cargo.eu/).
 
 
