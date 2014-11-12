@@ -2,6 +2,8 @@
 
 The term ‘Digital Shadow’ is a metaphor for digital information related to a thing or being, actively collected, enriched and guarded on behalf of that [entity](entity.md), available from a single access point. By definition, the digital shadow fits perfectly in the Internet of Things concept.
 
+A digital shadow should not be confused with a *digital footprint* where information is scattered over the internet and stored in many different systems without any direct relation. Instead, all information about an entity is stored together in a single electronic document and information is actively handled by a dedicated software service or software agent.
+
 ## Description
 A digital shadow provides a digital presence for a thing or being and collaboration among them. The primary purpose is to increase the utilisation and efficiency of physical resources for a more sustainable world. As such, the ‘digital shadow’ is a representation of a real-world object, palette or even an entire truck load. It reflects their individual shape, history, current and expected future status. 
 A digital shadow is a software agent that collects, stores, enriched and shares the information like a personal assistant of the [entity](entity.md) it represents. These shadows are first class citizens of the “Cloud”.
