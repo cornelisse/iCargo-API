@@ -6,7 +6,7 @@ The iCargo API is an [entity-centric](docs/entity.md) HTTP REST interface for th
 ## Context
 The [iCargo ecosystem]() is a federation of distributed and independent systems, designed to support Transport Logistics with the exchange of information between organisations across the Supply Chain. [Access Points]() are software services which support the iCargo API and provide a single entry point for an organisation to the iCargo ecosystem. One of the characteristics of this ecosystem is controlled and secure exchange of information without the need for a centralised controlling system or organisation.
 
-The iCargo REST API can be implemented as symmetrical software modules called inbound and outbound [connectors](docs/connectors.md) at the beginning or at the end of a pipeline of software services. The concepts of inbound and outbound connectors are required to distinguish a [synchronous](docs/connectors.md#synchrone) response from an [asynchronous](docs/connectors.md#synchrone) response.
+The iCargo REST API can be implemented as symmetrical software modules called inbound and outbound [connectors](docs/connectors.md) at the beginning or at the end of a pipeline of software services. The concepts of inbound and outbound connectors are required to distinguish a [synchronous](docs/connectors.md#synchrone-vs-asynchrone) response from an [asynchronous](docs/connectors.md#synchrone-vs-asynchrone) response.
 
 [![Pipeline of software services](images/pipeline.png)](docs/connectors.md)
 
