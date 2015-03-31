@@ -16,11 +16,11 @@ This API specification and the iCargo ecosystem are developed by the [iCargo pro
 This specification describes the following topics:
 *  [Capabilities](#capabilities), an overview of the functionality;
 *  [Information model](#model), required for addressing (REST) resources and describes how the resources and their status shall be modelled in a knowledge base; 
-*  [Generic specification](), applicable for all API calls such as mandatory HTTP-header attributes and the path structure of the URL;
-*  [Access restrictions](), authorisation requirements related to the different types and roles identified for an actor;
-*  [Function specific specification](), a detailed description for each HTTP call of the path to a resource, how to use the header attributes and the expected result.
+*  [Generic specification](#generic), applicable for all API calls such as mandatory HTTP-header attributes and the path structure of the URL;
+*  [Access restrictions](#access), authorisation requirements related to the different types and roles identified for an actor;
+*  [Function specific specification](#specific), a detailed description for each HTTP call of the path to a resource, how to use the header attributes and the expected result.
 
-## <name="capabilities"></a>Capabilities
+## <a name="capabilities"></a>Capabilities
 The Entity-centric Services interface [IES] supports the following [entity-centric](docs/entity.md) specific capabilities of an Access Point:
 *  To create and register an entity;
 *  To search for an entity and discover which Access Points can provide information; 
@@ -37,8 +37,20 @@ Additionally, the following capabilities are supported as well:
 
 Section E4 will elaborate how each capability is supported per API call.
 
-## <name=“model”></a>Information model
+## <a name="model"></a>Information model
 
+## <a name="generic"></a> Generic specification
+
+### Path
+
+### Header
+
+### Body
+For a more in depth description click [here](docs/body.md).
+
+## <a name="access"></a>Access restrictions
+
+## <a name="specific"></a>Functional specific request
 
 ## Contributions
 [![iCargo logo](images/iCargoLogo-320.png)](http://i-cargo.eu/).
