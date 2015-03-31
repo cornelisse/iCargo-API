@@ -1,6 +1,6 @@
 # iCargo body data structure
 
-The body of all iCargo compliant requests and responses is a uniform JSON data structure using UTF-8 character encoding. This data structure can contain one or more unordered facts and a digital signature if applicable. The body shall be implemented as a array.
+The body of all iCargo compliant requests and responses is a uniform JSON data structure using UTF-8 character encoding. This data structure can contain one or more unordered facts and a digital signature if applicable. The body shall be implemented as a single object or array.
 
 Compliant to the JSON specification RFC7159, the following body data structure is expected:
 ```
@@ -35,7 +35,9 @@ A fact has the following mandatory data structure:
 }
 ``` 
 ___Notes:___
+
 The timestamp is defined according to ISO 8601.
+
 A reference is a value of the type string and refers to an entity or a concept. There are two types of references: 
 * a unique identification code such as a UUID of an entity
 * or a path containing the name (alias) of the entity or concepts and its parent to specify the scope. A path provides a more human readable string of information and is often used for concepts as a local unique reference.
@@ -43,11 +45,11 @@ A reference is a value of the type string and refers to an entity or a concept. 
 The use of paths implies the necessity of an ontology explaining the meaning of the words used in the path to avoid misunderstanding. A unique identification code doesn’t have that problem because it is only a pointer to an entity or concept without further meaning.
 
 Examples of valid references are:
-```
+```javascript
 14bec851-528c-471b-e3cb-5328054a394c	  // UUID 
 40536090246888177                         // GSIN used to identify a shipment 
 software/access-point/eagle               // path to access point named “Eagle”
-0					// refers to the concept "unknown"
+0	// refers to the concept "unknown"
 ``` 
 
 ## Request body
@@ -59,7 +61,7 @@ All request result in a synchronous status response or a direct result response.
 In all cases, the response contains one ore more facts.
 
 ## Status response body
-Synchronous status responses provide information if a valid request has been made or not. These validation checks can be performed with little processing resources and delay and therefore the response can be immediately. Originally, additional response information were specified as plain text. Using the same data structure also all responses is not only a more consistent design but also provides systematic and structured information for automatic processing of the responses in a uniform way. This is especially useful in case of automated testing of a software service that has impemented the iCargo REST API.   
+Synchronous status responses provide validation information about a request whether it is accepted or rejected. Validation checks can be performed with little processing resources and therefore the response can be immediately. Originally, additional response information were specified as plain text. Using the same data structure for all responses is not only a more consistent design but also provides systematic and structured information for automatic processing of the responses in a uniform way. This is especially useful in case of automated testing of a software service that has impemented the iCargo REST API.   
 
 An example of a succesful HTTPstatus 202 response body:
 ```javascript
