@@ -46,7 +46,8 @@ Section E4 will elaborate how each capability is supported per API call.
 ### Header
 
 ### Body
-For a more in depth description click [here](docs/body.md).
+The body of all iCargo compliant requests and responses is a uniform JSON data structure using UTF-8 character encoding. This enables a uniform way for creating request and processing responses and results in less code and bugs.
+For an in depth description of the [iCargo body data structure](docs/body.md) click [here](docs/body.md).
 
 ## <a name="access"></a>Access restrictions
 
